@@ -15,9 +15,8 @@ def hello3():
     except RedisError:
         visits = "<i>cannot connect to Redis, counter disabled</i>"
 
-    html = "<h3>Welcome to India  {name}!</h3>" \
-           "<b>Hostname:</b> {hostname}<br/>" \
-           "<b>Visits:</b> {visits}"
+    html = "<h3>Welcome to India 
+          
     return html.format(name=os.getenv("NAME"), hostname=socket.gethostname(), visits=visits)
 
 if __name__ == "__main__":
