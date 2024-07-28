@@ -1,0 +1,628 @@
+Started by user [8mha:////4M6lF66P0ZQhUAehosTGtH9VzVCXHxrXGw+ptybn9sbdAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mvishal
+Restarted from build #10, stage PACKAGE
+[8mha:////4It0LpqxR6S5FvDrs6dRKTjfzUxO420PDBcZG0MNaIOjAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4PQGHesiYSmr0LzH9gcEilx5qkrLENLtw4GkRgDk8edyAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4N9KCW3aFK2yHTsLynb3dNYLQ+8y03RmTd/dZl3f+HbiAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZR/eT83ILSktQifY2k0sycEt3MPE19AHHxbH3KAAAA[0mJenkins in /var/lib/jenkins/workspace/FULL STACK CICD
+[8mha:////4DgsQ0r4Pl9Pn/gntKram+SVrVTJsMjZllDSkdFTvzpsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4MvqNSkW5CASApPvtnE0VC1ZctYT6hDT/+zh4yfXFWP6AAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaGWsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gdpL1fxvAAAAA==[0m[Pipeline] tool
+[8mha:////4Oj3JPLctwhlu20hUM28sR+EPB0To3N34nGOynssVZ3/AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0QSyIiTXKwglCEkLa6P82SWknTsTVuAOBSkxYsmRbst7zBXWKcKToeGux85i0530YXUl8othdA028pQvXhImC5dJOkow9LVVStrCIVbASsLaoAyWPLsNGtOqumqDQNeccy3YQUHkzwAOYKOSsYv6WOcL2NppE+OP8BcDcZ2C74v3nV78BmoXK/sAAAAA=[0m[Pipeline] withEnv
+[8mha:////4EoG0X0TdDOwC9oMWvCr97zETsdoKREL5TF8H5e1c5ZOAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] {
+[8mha:////4JI0d1hfJdYkYF6e2m3RuWSyPnCu1Ga3CcTs8+UNO7S3AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] stage
+[8mha:////4Py3cVIuL5DtiTr0oUfH/kqZbtHNt5t5WanxIudvVHOeAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BSEm1igLJwhJCGmj/9skpZ04EVfjDgQqMWHJkm3Jes8X1CnCkaLjrcXOY9Ke92F0JfGJYncNNPGWLlwTJgqWSztJMva0VEnZwiJWwUrA2qIOlDy6DBvRqrtqgkLXnHMs20FA5c0AD2CikLOK+VvmCNvbaBLhj/MXAHOfge2K959f/QbB16AVwAAAAA==[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4PHNwsZtj4crHWmtY67BvfkoRMMg+YS04x91pkk59DA9AAAAoh+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBEiEqWisNLzCJMU6su2BfSCpexNf4AxGRqNhqZ5p5vbFMEUeOTjWWWk+p8qoLvZueGji218CDaviiKqbEwarSDiXX9jRjyWIxL8ux0FhZqgInT06w1o15mCIYcsVZ4uQOGrmv73gi01NZTJQvjBGbW18npl/nbwBjJ8j2gny37T6VOYoyvQAAAA==[0m[Pipeline] tool
+[8mha:////4KUn908hPOik7w9FPBXI2luihaGvo+KhV8bIIB5BmEQWAAAAoh+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6KE0Rgn14bFL6hQa6F5D9uHMPlF/pr/IJHEyTvdc5bzemOdIo4cnWotdZ5S7VUfBjc/NXLsroFH1fJF1UyJg1WVHStu7GnBisViWZZjpbGxVAdOnpxgq1vzMEUw5IqzxNkdNHLf3PFEpueymChfmCJ2t6FJTL/O3wCmXpDtBXlZ9h/UCJErvQAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Ohyq3xwcnKw9H9iNRJUsNTE1ZAvS2nn7c8QaKGOBQXCAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRdAhR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYO0G2F+TbXfcBF1u8AL0AAAA=[0m[Pipeline] tool
+[8mha:////4KsB+Jb5rKWjQ8UveRasVHFV0y2CudtUgCq5WN1SJcFBAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRokKIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2AmyvSDf7roPVmqnGb0AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4F6EPL16KR0pb3/M0jm2X34vH8++9VCwOBrR4hwFYEehAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIREg1CVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5NudINt/APjxdFm9AAAA[0m[Pipeline] }
+[8mha:////4OoPlTOCeNQXRd+Aei3Sn9hl8hXPzsYgR/0XPHfyMI9wAAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRBRISoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/uBNn+A97oExO9AAAA[0m[Pipeline] // stage
+[8mha:////4N0i9gas3eoBFbGt+Hm2HW9ORcMxwG3/XuIBb+Ghg/DSAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjGigQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvqmGRHsEAAAA=[0m[Pipeline] withEnv
+[8mha:////4KG/HomFwWzMcKqxW5nyadyzS/G0Y36ZjFqtvaB27AKBAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULDAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1+IXOLCAAAA[0m[Pipeline] {
+[8mha:////4AWCIt0ZOR1bP7BOzcrcrdD5WA8BPU5KwVJbfCKeGablAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTCAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0rlhNLCAAAA[0m[Pipeline] stage
+[8mha:////4GduLkg3zhy2QFpjqPq4YbbRVJO2rlbcbQAGtxM3vmcrAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUbCDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASnCIIrCAAAA[0m[Pipeline] { (Git_Clone)
+Stage "Git_Clone" skipped due to this build restarting at stage "PACKAGE"
+[8mha:////4LBZAgGpQd71wc9AVm4qvldJ/rki3jRiC0hdt80IaVAcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICdAilorXc8AKTGOPEugu2g1PxIr7GH7CIRMUWq51t5vWGZfBQszfYaeothcbi4EaTFyb2/dVxwo4v2DAFdhqlTpJbfZpRctQwpyhhIWClqXEcLJkIa9Gph6qcIlOdo8/fUUBp2zs8oRDZHJWPX5g8bG5jG5h+nr8CmIYI5e6Qa78dPhmQ9Da+AAAA[0m[Pipeline] getContext
+[8mha:////4EmqPCr0bpyCCl0ml9vNYd5SZTYmAp5turRGNsUy/5QkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPiXWgpW+AAAA[0m[Pipeline] }
+[8mha:////4EkRjT7Ce8UBvdqCSDwffTYElBx5lwgtnkBHNfqClxgqAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRqZAQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AEdlBFkvgAAAA==[0m[Pipeline] // stage
+[8mha:////4H5jO252CO1ihU+daPqtOeetmuIwqLRzi+CiEe+xE+onAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwMCAOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52Wfb7j7P6g0UD6uJwgAAAA==[0m[Pipeline] stage
+[8mha:////4CAhSYcZ95Ggb4p4h5sHM28uA6zfILJY2CP8rq9FNJwiAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAd6e6VPCAAAA[0m[Pipeline] { (CLEAN)
+Stage "CLEAN" skipped due to this build restarting at stage "PACKAGE"
+[8mha:////4LBzTlIJutfxs8tDd/z/MriKnVpCIni/CdDfsgK3izoHAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN38C26S+AAAA[0m[Pipeline] getContext
+[8mha:////4D8rVsnbndX0zkRhmzBYU4EMqVGshNk2rMrt1zhAPJS8AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHjyRvdvgAAAA==[0m[Pipeline] }
+[8mha:////4BZy9bao51NBQ9rVmnTBAEdCxRhY+DcmfBZmBFjSjTTaAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQHljyOIvgAAAA==[0m[Pipeline] // stage
+[8mha:////4G5wxhMm0+IVGkYU3MAuZgi4FCxI6kjgVRFn1iRGG61MAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUsICEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK52WXb7j/P6g3X/2zjwgAAAA==[0m[Pipeline] stage
+[8mha:////4P8KPCKa/0//lxX283vKn9I2xci1tFrWzQ2C9th27cYgAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] { (COMPILE)
+Stage "COMPILE" skipped due to this build restarting at stage "PACKAGE"
+[8mha:////4Psl3TS0OJI0TTpKv3S8fsigT8nB4NRj4JYPtdPADIrJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] getContext
+[8mha:////4Fma2tPozGlRzx4z7dwzjazpJJoh06a6b1X73od6DAXbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4Jw1ARY2HfaHGsb3C3WYBv5OhGB/JQuqKHCCWiv8e+S5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // stage
+[8mha:////4LqWF+1HLP2sB8qJYa7dBV08yc6HlL1lgoMulAKVQbNwAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUqAMDYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlbp+taT7P6g2gBNwvwgAAAA==[0m[Pipeline] stage
+[8mha:////4AZ4b+vz+V+7mjXXAZ3hK1TvpYQ09kMY3nOZV3aXEg15AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KBtiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPBdk7bsIAAAA=[0m[Pipeline] { (PACKAGE)
+[8mha:////4CmCHxv6n5zqtIhUG5TChh0SuytO7V3bJEB1lSTrtXVNAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBtZos2m+AAAA[0m[Pipeline] tool
+[8mha:////4FByP61JgFpCrQcoCJWpJqAKDN+L/7I/SrIDmSg8s7bQAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHNxU7nkK+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4GNpuruWT2RzcjCwQ9QKTdn+tC+33g0tU3vLg6qNpTfYAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgESBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFUCoVbvgAAAA==[0m[Pipeline] tool
+[8mha:////4C6WLZeIA9FpwZdwBFBzEKQhS9d8r9wMe2Z6MzoSGTbhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGbFh3cvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4IliVFv6Qee97VBeBEommRAK8AgQKM0h9WKKkcRG7mTEAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAUhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD1jfnvvCAAAA[0m[Pipeline] withEnv
+[8mha:////4Adfb+Ls4vJy/OWlgBsrC5NE0SSDnwKP9ZyF+CgSzWjuAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUCRaEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g0Z/aLSwgAAAA==[0m[Pipeline] {
+[8mha:////4GtM8TbdnbfY+z9vafJDEKheI6Dgei7cCYvWNeM6xJJCAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEh2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBl2WGva+AAAA[0m[Pipeline] sh
++ mvn package
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.javaproject:database_service_project >--------------
+[INFO] Building database_service_project 0.0.2
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco:0.8.7:prepare-agent (jacoco-initialize) @ database_service_project ---
+[INFO] argLine set to "-javaagent:/var/lib/jenkins/.m2/repository/org/jacoco/org.jacoco.agent/0.8.7/org.jacoco.agent-0.8.7-runtime.jar=destfile=/var/lib/jenkins/workspace/FULL STACK CICD/target/jacoco.exec"
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 19 resources
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ database_service_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ database_service_project ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/FULL STACK CICD/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ database_service_project ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- surefire:2.22.2:test (default-test) @ database_service_project ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.javaproject.TestController
+07:25:59.639 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+07:25:59.660 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+07:25:59.774 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.javaproject.TestController] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+07:25:59.804 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.TestController], using SpringBootContextLoader
+07:25:59.823 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.javaproject.TestController]: class path resource [com/javaproject/TestController-context.xml] does not exist
+07:25:59.823 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.javaproject.TestController]: class path resource [com/javaproject/TestControllerContext.groovy] does not exist
+07:25:59.824 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.javaproject.TestController]: no resource found for suffixes {-context.xml, Context.groovy}.
+07:25:59.828 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.javaproject.TestController]: TestController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+07:25:59.957 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.javaproject.TestController]
+07:26:00.110 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/FULL STACK CICD/target/classes/com/javaproject/DatabaseServiceProjectApplication.class]
+07:26:00.111 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.TestController
+07:26:00.309 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.javaproject.TestController]: using defaults.
+07:26:00.310 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+07:26:00.351 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7026b7ee, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2d23faef, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7cb8437d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@62a4417, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@43f61afb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@713064e8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4fad6218, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1bf39d06, org.springframework.test.context.event.EventPublishingTestExecutionListener@68217d41, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@1ac45389, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@3e5d4f6b, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@39c1fe0b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5ae95707, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@62891fc8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@367b22e5, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@fca387, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@10bd9df0]
+07:26:00.362 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@771cbb1a testClass = TestController, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2416498e testClass = TestController, locations = '{}', classes = '{class com.javaproject.DatabaseServiceProjectApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@6b2e0f78 key = [org.springframework.boot.test.autoconfigure.web.servlet.MockMvcAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebClientAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.client.servlet.OAuth2ClientAutoConfiguration, org.springframework.boot.autoconfigure.security.oauth2.resource.servlet.OAuth2ResourceServerAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.SecurityFilterAutoConfiguration, org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcSecurityConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@aa22f1c, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4263b080, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@3277e499, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2c5d601e, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@4b3fa0b3, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@26b894bd, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@7748410a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+07:26:00.436 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.5.6)
+
+2024-07-02 07:26:01.045  INFO 38136 --- [           main] com.javaproject.TestController           : Starting TestController using Java 17.0.11 on ip-172-31-14-206 with PID 38136 (started by jenkins in /var/lib/jenkins/workspace/FULL STACK CICD)
+2024-07-02 07:26:01.065  INFO 38136 --- [           main] com.javaproject.TestController           : No active profile set, falling back to default profiles: default
+2024-07-02 07:26:02.811  INFO 38136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-07-02 07:26:02.816  INFO 38136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-07-02 07:26:02.830  INFO 38136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2024-07-02 07:26:02.845  INFO 38136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-07-02 07:26:02.846  INFO 38136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-02 07:26:02.873  INFO 38136 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-07-02 07:26:03.982  INFO 38136 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-02 07:26:04.440  INFO 38136 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-02 07:26:04.909  INFO 38136 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-02 07:26:04.994  INFO 38136 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-07-02 07:26:05.222  INFO 38136 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-02 07:26:05.456  INFO 38136 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-07-02 07:26:05.835  INFO 38136 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-02 07:26:05.863  INFO 38136 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 07:26:06.183  WARN 38136 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-02 07:26:06.283  INFO 38136 --- [           main] o.s.s.p.JdbcUserDetailsManager           : No authentication manager set. Reauthentication of users when changing passwords will not be performed.
+2024-07-02 07:26:06.994  INFO 38136 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5284d7f2, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d9f9c9d, org.springframework.security.web.header.HeaderWriterFilter@5a5183ed, org.springframework.security.web.authentication.logout.LogoutFilter@5fbcc71d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@538a465d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@420e2daa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61aa2edf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52ce11b5, org.springframework.security.web.session.SessionManagementFilter@52757583, org.springframework.security.web.access.ExceptionTranslationFilter@2d741755, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2ff89271]
+2024-07-02 07:26:07.649  INFO 38136 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-02 07:26:07.768  INFO 38136 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-07-02 07:26:08.377  INFO 38136 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-07-02 07:26:08.378  INFO 38136 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-07-02 07:26:08.379  INFO 38136 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-07-02 07:26:08.420  INFO 38136 --- [           main] com.javaproject.TestController           : Started TestController in 7.969 seconds (JVM running for 10.471)
+return value is: 4
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /boardgameAdded
+       Parameters = {name=[onecard], level=[1], minPlayers=[2], maxPlayers=[+], gameType=[Party Game]}
+          Headers = []
+             Body = null
+    Session Attrs = {}
+
+Handler:
+             Type = com.javaproject.controllers.HomeController
+           Method = com.javaproject.controllers.HomeController#boardgameAdded(BoardGame)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = redirect:/
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 302
+    Error message = null
+          Headers = [Content-Language:"en", X-Content-Type-Options:"nosniff", X-XSS-Protection:"1; mode=block", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", Location:"/"]
+     Content type = null
+             Body = 
+    Forwarded URL = null
+   Redirected URL = /
+          Cookies = []
+return value is: 1
+return value is: 1
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.461 s - in com.javaproject.TestController
+[INFO] Running com.javaproject.DatabaseServiceProjectApplicationTests
+2024-07-02 07:26:09.892  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.DatabaseServiceProjectApplicationTests], using SpringBootContextLoader
+2024-07-02 07:26:09.893  INFO 38136 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-07-02 07:26:09.894  INFO 38136 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.javaproject.DatabaseServiceProjectApplicationTests]: DatabaseServiceProjectApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-02 07:26:09.899  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.DatabaseServiceProjectApplicationTests
+2024-07-02 07:26:09.902  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2024-07-02 07:26:09.903  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2ed0e7c9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2376142e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ae8efc6, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2209622a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@bce370d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@188a953e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@35b1df36, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5c40e398, org.springframework.test.context.event.EventPublishingTestExecutionListener@26ccc142, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@6aa393c0, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@51d0a9cd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ad7cc4c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4ad1ca85, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3c1a6d8c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@68d02503, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c5121f9, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@18105d14]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.javaproject.DatabaseServiceProjectApplicationTests
+[INFO] Running com.javaproject.TestDatabase
+2024-07-02 07:26:09.930  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaproject.TestDatabase], using SpringBootContextLoader
+2024-07-02 07:26:09.930  INFO 38136 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.javaproject.TestDatabase]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-07-02 07:26:09.930  INFO 38136 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.javaproject.TestDatabase]: TestDatabase does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-07-02 07:26:09.935  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.javaproject.DatabaseServiceProjectApplication for test class com.javaproject.TestDatabase
+2024-07-02 07:26:09.936  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+2024-07-02 07:26:09.940  INFO 38136 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b935a8b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@51f15610, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6feaf424, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@36d9ad3f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@674fee6d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3c556542, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4a6ed38, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7fed08c6, org.springframework.test.context.event.EventPublishingTestExecutionListener@6749add0, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@7021ab0e, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@43dd471f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@54e1dc9a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7eecccfb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e871f3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2aa43b2e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@707b37ec, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6868b60c]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 s - in com.javaproject.TestDatabase
+2024-07-02 07:26:10.098  INFO 38136 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-07-02 07:26:10.099  INFO 38136 --- [ionShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2024-07-02 07:26:10.108  INFO 38136 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-07-02 07:26:10.116  INFO 38136 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- jar:3.2.0:jar (default-jar) @ database_service_project ---
+[INFO] 
+[INFO] --- spring-boot:2.5.6:repackage (repackage) @ database_service_project ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- jacoco:0.8.7:report (jacoco-site) @ database_service_project ---
+[INFO] Loading execution data file /var/lib/jenkins/workspace/FULL STACK CICD/target/jacoco.exec
+[INFO] Analyzed bundle 'database_service_project' with 9 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.761 s
+[INFO] Finished at: 2024-07-02T07:26:11Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4NvepdjgtPyJjdn1l0QDCO6WjmRKX2SOxqqDbhVUINjMAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCEB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7nffWr7BlDdbXS+AAAA[0m[Pipeline] }
+[8mha:////4C5d2s0huDc4PQKjsuUDJxLtJoDj2FgetG6Q28Pbxxb1AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJShAYhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyj3da768AGWIKyJvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4Glhk+0nCaid1mhwL4opARg7FUaabDot+r+P2QWzXD69AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpSIeoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79AJNsGOq+AAAA[0m[Pipeline] }
+[8mha:////4MCJhgOYL42kXtGOuRlkQoCtr3LTwQl1Tv3wQx8KmK3TAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP5UqIL++AAAA[0m[Pipeline] // stage
+[8mha:////4Ka64WIYVnTL9PnSgcHFfHjmvUfTy2CXf5VQbUaaGxDgAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSAgG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHKzT7bdvd5Vm+dq7a6wgAAAA==[0m[Pipeline] stage
+[8mha:////4Ohn0sD2fB1e5x/VI7+YipEfdPn85aMvYca2wXS22MIYAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QTAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD+jQxyjCAAAA[0m[Pipeline] { (OWASP Dependency Check)
+[8mha:////4FQPrMZvdhzNYGvY7Iqt2My5Eem33GLq+pGBTPh3duLIAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGaE3/ivgAAAA==[0m[Pipeline] tool
+[8mha:////4KgjpOz2GzgOrR1akAE0+fvYj8fZwYAind+1kTyRPAJdAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSICGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHbImT7vgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4Jd1Z2VV1M3eZYlybQqrCYZmS4kWCqWj9E1893I2Hk2IAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAaJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw+l82QrvgAAAA==[0m[Pipeline] tool
+[8mha:////4P98lK36bmPM7AViqEUiFurCIqswtUu7mTH4sIAYT6/tAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBAFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wA5MJ/Mr4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4FI72aiXAN0x6CeRMEKmxkQjzQSVugaAqmVti8o1WNkoAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUQiAG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7T7bbvN5Vm8vlfMfwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4PvpmjoBSDDCqaeToBRjVZAsib3EBMmiBnWmlyUyv92LAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUAjEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD6emXT7CAAAA[0m[Pipeline] {
+[8mha:////4KfJhbTqN9TivZbQ81FSCQIqSCfzOU98UXb+wKQWNVL5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSABWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBiwS7Xe+AAAA[0m[Pipeline] dependencyCheck
+[INFO] Checking for updates
+[INFO] Skipping NVD check since last check was within 4 hours.
+[INFO] Skipping RetireJS update since last update was within 24 hours.
+[INFO] Check for updates complete (151 ms)
+[INFO] 
+
+Dependency-Check is an open source tool performing a best effort analysis of 3rd party dependencies; false positives and false negatives may exist in the analysis performed by the tool. Use of the tool and the reporting provided constitutes acceptance for use in an AS IS condition, and there are NO warranties, implied or otherwise, with regard to the analysis or its use. Any use of the tool and the reporting provided is at the user’s risk. In no event shall the copyright holder or OWASP be held liable for any damages whatsoever arising out of or in connection with the use of this tool, the analysis performed, or the resulting report.
+
+
+   About ODC: https://jeremylong.github.io/DependencyCheck/general/internals.html
+   False Positives: https://jeremylong.github.io/DependencyCheck/general/suppression.html
+
+💖 Sponsor: https://github.com/sponsors/jeremylong
+
+
+[INFO] Analysis Started
+[INFO] Finished Archive Analyzer (2 seconds)
+[INFO] Finished File Name Analyzer (0 seconds)
+[INFO] Finished Jar Analyzer (0 seconds)
+[INFO] Finished Central Analyzer (0 seconds)
+[INFO] Finished Dependency Merging Analyzer (0 seconds)
+[INFO] Finished Version Filter Analyzer (0 seconds)
+[INFO] Finished Hint Analyzer (0 seconds)
+[INFO] Created CPE Index (3 seconds)
+[INFO] Finished CPE Analyzer (6 seconds)
+[INFO] Finished False Positive Analyzer (0 seconds)
+[INFO] Finished NVD CVE Analyzer (0 seconds)
+[INFO] Finished RetireJS Analyzer (0 seconds)
+[INFO] Finished Sonatype OSS Index Analyzer (0 seconds)
+[INFO] Finished Vulnerability Suppression Analyzer (0 seconds)
+[INFO] Finished Dependency Bundling Analyzer (0 seconds)
+[INFO] Analysis Complete (11 seconds)
+[INFO] Writing report to: /var/lib/jenkins/workspace/FULL STACK CICD/./dependency-check-report.xml
+[8mha:////4KcTVXCis8xir8E/l/JxJSbWvnOY27dFTK7ejK6uFwGfAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoFSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/Bm0j9m6+AAAA[0m[Pipeline] dependencyCheckPublisher
+Collecting Dependency-Check artifact
+Parsing file /var/lib/jenkins/workspace/FULL STACK CICD/dependency-check-report.xml
+[8mha:////4AizE9z/Fi2rSpj9fdFqD+DgmixpZKdAlriSttFJaV3nAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbNwn0mcm+AAAA[0m[Pipeline] }
+[8mha:////4JFKPD1WnggL1umpgkXmHd71CBLYZ3fMuL6q++i/dCHuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISEKRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyt//U9g06F8J1vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4KjTokGg8FyDqDvALBKwCkDb6Qy1dzW95QEQkSsQa9+2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgEBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8hYOXtvgAAAA==[0m[Pipeline] }
+[8mha:////4BJrdSMm8zmOvOwOfERhXAderccCckon5VOBts/n2j/aAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSABJCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w8Sg75RvgAAAA==[0m[Pipeline] // stage
+[8mha:////4HsG2VWs+1G5L+gYZn59fsoVjtQImoun1iTlx88K7HybAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3+2y7zedZvQGpWXD7wgAAAA==[0m[Pipeline] stage
+[8mha:////4NhVPDFke9XUUwo2T2DRWiKHMwAd876j+QaOhYVKf8LxAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUFhbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAQB2j23CAAAA[0m[Pipeline] { (SonarQube Analysis)
+[8mha:////4BuMuM8ClzmizJ6Twa/o4LKZ6H2m1ztHH+WnhwyMFnH2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKGgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFNzkd4Tq+AAAA[0m[Pipeline] tool
+[8mha:////4CTnAQZYRrev7s9h64ie56E8bB6NxyWIdtJxXTbYvM9LAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAF4LPojvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4NWCOHgnC6/ihNgykS1vcN3NuNT3/HW+gbrqpy1tnZraAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAG/urtsvgAAAA==[0m[Pipeline] tool
+[8mha:////4JFHYb7UcqxhpFE79GN8HMmHCPZNnUduJTC2wdQI91W2AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN/6LoHW+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4A3SoOMxAtCqNAltIpnOfqTmZmgcUi1Qda6xF5aDQOHqAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohULF0QE2vUhROEJoSk0f9tkpJOnIircQdaKjHhwbItWe/1hjIGOFEw3GnsLMbW8t6PZk48U+hunjJ3dOUtYSSveaNzQ0qf19pQ0rCqYLARsNXYeooWTYKdcPIhKy/RVJcU5u0ogFk1wBMKMZOTDOlbpgD7+6gi4Y/zFwBTn4DVh8Xq5Vl+AHiZBLHCAAAA[0m[Pipeline] withEnv
+[8mha:////4CY5z+ZxcTXag2gwxEFyFLgMusmNam2hIbY1qerIsHMYAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KwNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPXl9jU8IAAAA=[0m[Pipeline] {
+[8mha:////4K4dT335lVQ5AMigiVIQMXAQxvhIH+3TJOEnpHDPkKx8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] withSonarQubeEnv
+Injecting SonarQube environment variables using the configuration: sonarqube2-server
+[8mha:////4MXYtSYr4ueVzGtrrTLJWjU4NhS2lWt/bQQfvr+RTc5mAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QyDE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxASgVHzvCAAAA[0m[Pipeline] {
+[8mha:////4DK3m7Lkcxgp6w+ySwOWdSUkGYktFNulGc0PKPUJ9qmpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHrW/o6vgAAAA==[0m[Pipeline] sh
++ /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/bin/sonar-scanner -Dsonar.projectName=Boardgame -Dsonar.projectKey=Boardgame -Dsonar.java.binaries=.
+07:26:29.258 INFO  Scanner configuration file: /var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/sonar-scanner/conf/sonar-scanner.properties
+07:26:29.262 INFO  Project root configuration file: NONE
+07:26:29.278 INFO  SonarScanner CLI 6.0.0.4432
+07:26:29.279 INFO  Java 17.0.11 Eclipse Adoptium (64-bit)
+07:26:29.280 INFO  Linux 6.8.0-1009-aws amd64
+07:26:29.313 INFO  User cache: /var/lib/jenkins/.sonar/cache
+07:26:30.195 INFO  Communicating with SonarQube Server 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="application-name" content="SonarQube" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/mstile-512x512.png" />
+    <title>SonarQube</title>
+
+    <link rel="stylesheet" href="/js/outY43OURST.css" />
+</head>
+
+<body>
+    <div id="content">
+        <div class="global-loading">
+            <i class="spinner global-loading-spinner"></i> 
+            <span aria-live="polite" class="global-loading-text">Loading...</span>
+        </div>
+    </div>
+
+    <script>
+        window.baseUrl = '';
+        window.serverStatus = 'UP';
+        window.instance = 'SonarQube';
+        window.official = true;
+    </script>
+
+    <script type="module" src="/js/outDBSRE6XU.js"></script>
+</body>
+
+</html>
+
+07:26:31.117 INFO  Load global settings
+07:26:31.294 INFO  Load global settings (done) | time=179ms
+07:26:31.299 INFO  Server id: 147B411E-AZBtr_Qaszhq4iUxaeyB
+07:26:31.304 INFO  User cache: /var/lib/jenkins/.sonar/cache
+07:26:31.310 INFO  Load/download plugins
+07:26:31.311 INFO  Load plugins index
+07:26:31.435 INFO  Load plugins index (done) | time=124ms
+07:26:31.746 INFO  Load/download plugins (done) | time=436ms
+07:26:32.665 INFO  Process project properties
+07:26:32.666 INFO  Process project properties (done) | time=1ms
+07:26:32.673 INFO  Execute project builders
+07:26:32.677 INFO  Execute project builders (done) | time=2ms
+07:26:32.684 INFO  Project key: Boardgame
+07:26:32.684 INFO  Base dir: /var/lib/jenkins/workspace/FULL STACK CICD
+07:26:32.684 INFO  Working dir: /var/lib/jenkins/workspace/FULL STACK CICD/.scannerwork
+07:26:32.698 INFO  Load project settings for component key: 'Boardgame'
+07:26:32.752 INFO  Load project settings for component key: 'Boardgame' (done) | time=55ms
+07:26:32.970 INFO  Auto-configuring with CI 'Jenkins'
+07:26:32.974 INFO  Load quality profiles
+07:26:33.218 INFO  Load quality profiles (done) | time=244ms
+07:26:33.222 INFO  Load active rules
+07:26:37.133 INFO  Load active rules (done) | time=3911ms
+07:26:37.145 INFO  Load analysis cache
+07:26:37.170 INFO  Load analysis cache (439 bytes) | time=25ms
+07:26:37.252 INFO  Load project repositories
+07:26:37.297 INFO  Load project repositories (done) | time=45ms
+07:26:37.339 INFO  Indexing files...
+07:26:37.340 INFO  Project configuration:
+07:26:37.638 WARN  File '/var/lib/jenkins/workspace/FULL STACK CICD/target/database_service_project-0.0.2.jar' is bigger than 20MB and as consequence is removed from the analysis scope.
+07:26:37.746 INFO  41 files indexed
+07:26:37.746 INFO  97 files ignored because of scm ignore settings
+07:26:37.748 INFO  Quality profile for css: Sonar way
+07:26:37.749 INFO  Quality profile for java: Sonar way
+07:26:37.749 INFO  Quality profile for js: Sonar way
+07:26:37.749 INFO  Quality profile for web: Sonar way
+07:26:37.749 INFO  Quality profile for xml: Sonar way
+07:26:37.749 INFO  ------------- Run sensors on module Boardgame
+07:26:37.939 INFO  Load metrics repository
+07:26:37.980 INFO  Load metrics repository (done) | time=41ms
+07:26:40.447 INFO  Sensor JavaSensor [java]
+07:26:40.461 INFO  Configured Java source version (sonar.java.source): none
+07:26:40.467 INFO  JavaClasspath initialization
+07:26:40.469 INFO  JavaClasspath initialization (done) | time=2ms
+07:26:40.469 INFO  JavaTestClasspath initialization
+07:26:40.469 INFO  JavaTestClasspath initialization (done) | time=0ms
+07:26:40.481 INFO  Server-side caching is enabled. The Java analyzer will not try to leverage data from a previous analysis.
+07:26:40.485 INFO  Using ECJ batch to parse 12 Main java source files with batch size 104 KB.
+07:26:40.838 INFO  Starting batch processing.
+07:26:41.499 INFO  The Java analyzer cannot skip unchanged files in this context. A full analysis is performed for all files.
+07:26:43.025 INFO  100% analyzed
+07:26:43.025 INFO  Batch processing: Done.
+07:26:43.026 INFO  Did not optimize analysis for any files, performed a full analysis for all 12 files.
+07:26:43.027 WARN  Dependencies/libraries were not provided for analysis of SOURCE files. The 'sonar.java.libraries' property is empty. Verify your configuration, as you might end up with less precise results.
+07:26:43.027 WARN  Unresolved imports/types have been detected during analysis. Enable DEBUG mode to see them.
+07:26:43.028 WARN  Use of preview features have been detected during analysis. Enable DEBUG mode to see them.
+07:26:43.028 INFO  No "Test" source files to scan.
+07:26:43.028 INFO  No "Generated" source files to scan.
+07:26:43.028 INFO  Sensor JavaSensor [java] (done) | time=2581ms
+07:26:43.028 INFO  Sensor JaCoCo XML Report Importer [jacoco]
+07:26:43.029 INFO  'sonar.coverage.jacoco.xmlReportPaths' is not defined. Using default locations: target/site/jacoco/jacoco.xml,target/site/jacoco-it/jacoco.xml,build/reports/jacoco/test/jacocoTestReport.xml
+07:26:43.033 INFO  Importing 1 report(s). Turn your logs in debug mode in order to see the exhaustive list.
+07:26:43.131 INFO  Sensor JaCoCo XML Report Importer [jacoco] (done) | time=103ms
+07:26:43.132 INFO  Sensor JavaScript analysis [javascript]
+07:26:44.827 ERROR Error when running: 'node -v'. Is Node.js available during analysis?
+org.sonarsource.nodejs.NodeCommandException: Error when running: 'node -v'. Is Node.js available during analysis?
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:79)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.getVersion(NodeCommandBuilderImpl.java:203)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.checkNodeCompatibility(NodeCommandBuilderImpl.java:169)
+	at org.sonarsource.nodejs.NodeCommandBuilderImpl.build(NodeCommandBuilderImpl.java:143)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.initNodeCommand(EslintBridgeServerImpl.java:201)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServer(EslintBridgeServerImpl.java:142)
+	at org.sonar.plugins.javascript.eslint.EslintBridgeServerImpl.startServerLazily(EslintBridgeServerImpl.java:233)
+	at org.sonar.plugins.javascript.eslint.AbstractEslintSensor.execute(AbstractEslintSensor.java:68)
+	at org.sonar.scanner.sensor.AbstractSensorWrapper.analyse(AbstractSensorWrapper.java:64)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:88)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.lambda$execute$1(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.withModuleStrategy(ModuleSensorsExecutor.java:79)
+	at org.sonar.scanner.sensor.ModuleSensorsExecutor.execute(ModuleSensorsExecutor.java:61)
+	at org.sonar.scanner.scan.SpringModuleScanContainer.doAfterStart(SpringModuleScanContainer.java:82)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:188)
+	at org.sonar.core.platform.SpringComponentContainer.execute(SpringComponentContainer.java:167)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scan(SpringProjectScanContainer.java:403)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.scanRecursively(SpringProjectScanContainer.java:399)
+	at org.sonar.scanner.scan.SpringProjectScanContainer.doAfterStart(SpringProjectScanContainer.java:368)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:188)
+	at org.sonar.core.platform.SpringComponentContainer.execute(SpringComponentContainer.java:167)
+	at org.sonar.scanner.bootstrap.SpringGlobalContainer.doAfterStart(SpringGlobalContainer.java:137)
+	at org.sonar.core.platform.SpringComponentContainer.startComponents(SpringComponentContainer.java:188)
+	at org.sonar.core.platform.SpringComponentContainer.execute(SpringComponentContainer.java:167)
+	at org.sonar.batch.bootstrapper.Batch.doExecute(Batch.java:72)
+	at org.sonar.batch.bootstrapper.Batch.execute(Batch.java:66)
+	at org.sonarsource.scanner.lib.internal.batch.BatchIsolatedLauncher.execute(BatchIsolatedLauncher.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.sonarsource.scanner.lib.internal.IsolatedLauncherProxy.invoke(IsolatedLauncherProxy.java:62)
+	at jdk.proxy3/jdk.proxy3.$Proxy2.execute(Unknown Source)
+	at org.sonarsource.scanner.lib.InProcessScannerEngineFacade.doAnalyze(InProcessScannerEngineFacade.java:39)
+	at org.sonarsource.scanner.lib.ScannerEngineFacade.analyze(ScannerEngineFacade.java:61)
+	at org.sonarsource.scanner.cli.Main.analyze(Main.java:77)
+	at org.sonarsource.scanner.cli.Main.main(Main.java:63)
+Caused by: java.io.IOException: Cannot run program "node": error=2, No such file or directory
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at org.sonarsource.nodejs.ProcessWrapperImpl.startProcess(ProcessWrapperImpl.java:39)
+	at org.sonarsource.nodejs.NodeCommand.start(NodeCommand.java:77)
+	... 36 common frames omitted
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	... 39 common frames omitted
+
+07:26:44.828 INFO  Hit the cache for 0 out of 0
+07:26:44.829 INFO  Miss the cache for 0 out of 0
+07:26:44.829 INFO  Sensor JavaScript analysis [javascript] (done) | time=1698ms
+07:26:44.829 INFO  Sensor TypeScript analysis [javascript]
+07:26:44.829 INFO  No input files found for analysis
+07:26:44.829 INFO  Hit the cache for 0 out of 0
+07:26:44.829 INFO  Miss the cache for 0 out of 0
+07:26:44.829 INFO  Sensor TypeScript analysis [javascript] (done) | time=0ms
+07:26:44.830 INFO  Sensor CSS Rules [javascript]
+07:26:44.830 INFO  Hit the cache for 0 out of 0
+07:26:44.830 INFO  Miss the cache for 0 out of 0
+07:26:44.830 INFO  Sensor CSS Rules [javascript] (done) | time=0ms
+07:26:44.830 INFO  Sensor CSS Metrics [javascript]
+07:26:44.840 INFO  Sensor CSS Metrics [javascript] (done) | time=10ms
+07:26:44.840 INFO  Sensor C# Project Type Information [csharp]
+07:26:44.841 INFO  Sensor C# Project Type Information [csharp] (done) | time=1ms
+07:26:44.841 INFO  Sensor C# Analysis Log [csharp]
+07:26:44.880 INFO  Sensor C# Analysis Log [csharp] (done) | time=38ms
+07:26:44.880 INFO  Sensor C# Properties [csharp]
+07:26:44.880 INFO  Sensor C# Properties [csharp] (done) | time=0ms
+07:26:44.880 INFO  Sensor SurefireSensor [java]
+07:26:44.880 INFO  parsing [/var/lib/jenkins/workspace/FULL STACK CICD/target/surefire-reports]
+07:26:44.994 INFO  Sensor SurefireSensor [java] (done) | time=114ms
+07:26:44.995 INFO  Sensor HTML [web]
+07:26:45.264 INFO  Sensor HTML [web] (done) | time=269ms
+07:26:45.264 INFO  Sensor XML Sensor [xml]
+07:26:45.278 INFO  2 source files to be analyzed
+07:26:47.151 INFO  2/2 source files have been analyzed
+07:26:47.152 INFO  Sensor XML Sensor [xml] (done) | time=1888ms
+07:26:47.152 INFO  Sensor TextAndSecretsSensor [text]
+07:26:47.173 INFO  30 source files to be analyzed
+07:26:47.870 INFO  30/30 source files have been analyzed
+07:26:47.870 INFO  Sensor TextAndSecretsSensor [text] (done) | time=718ms
+07:26:47.870 INFO  Sensor VB.NET Project Type Information [vbnet]
+07:26:47.871 INFO  Sensor VB.NET Project Type Information [vbnet] (done) | time=1ms
+07:26:47.871 INFO  Sensor VB.NET Analysis Log [vbnet]
+07:26:47.915 INFO  Sensor VB.NET Analysis Log [vbnet] (done) | time=44ms
+07:26:47.915 INFO  Sensor VB.NET Properties [vbnet]
+07:26:47.915 INFO  Sensor VB.NET Properties [vbnet] (done) | time=0ms
+07:26:47.915 INFO  Sensor IaC Docker Sensor [iac]
+07:26:47.920 INFO  1 source file to be analyzed
+07:26:48.036 INFO  1/1 source file has been analyzed
+07:26:48.037 INFO  Sensor IaC Docker Sensor [iac] (done) | time=122ms
+07:26:48.046 INFO  ------------- Run sensors on project
+07:26:48.108 INFO  Sensor Analysis Warnings import [csharp]
+07:26:48.108 INFO  Sensor Analysis Warnings import [csharp] (done) | time=0ms
+07:26:48.108 INFO  Sensor Zero Coverage Sensor
+07:26:48.113 INFO  Sensor Zero Coverage Sensor (done) | time=5ms
+07:26:48.113 INFO  Sensor Java CPD Block Indexer
+07:26:48.145 INFO  Sensor Java CPD Block Indexer (done) | time=32ms
+07:26:48.154 INFO  SCM Publisher SCM provider for this project is: git
+07:26:48.156 INFO  SCM Publisher 1 source file to be analyzed
+07:26:48.229 INFO  SCM Publisher 0/1 source files have been analyzed (done) | time=72ms
+07:26:48.232 WARN  Missing blame information for the following files:
+07:26:48.232 WARN    * dependency-check-report.xml
+07:26:48.232 WARN  This may lead to missing/broken features in SonarQube
+07:26:48.249 INFO  CPD Executor 6 files had no CPD blocks
+07:26:48.249 INFO  CPD Executor Calculating CPD for 20 files
+07:26:48.319 INFO  CPD Executor CPD calculation finished (done) | time=68ms
+07:26:48.442 INFO  Analysis report generated in 114ms, dir size=2.3 MB
+07:26:48.579 INFO  Analysis report compressed in 136ms, zip size=487.4 kB
+07:26:48.688 INFO  Analysis report uploaded in 109ms
+07:26:48.690 INFO  ANALYSIS SUCCESSFUL, you can find the results at: http://3.108.140.112:9000/dashboard?id=Boardgame
+07:26:48.690 INFO  Note that you will be able to access the updated dashboard once the server has processed the submitted analysis report
+07:26:48.690 INFO  More about the report processing at http://3.108.140.112:9000/api/ce/task?id=AZByVskrstE3i5row4rR
+07:26:49.196 INFO  Analysis total time: 17.292 s
+07:26:49.198 INFO  EXECUTION SUCCESS
+07:26:49.199 INFO  Total time: 19.984s
+[8mha:////4Ogb830w91L2cA7MmClpvEXB/h2rx8Nn3Ho3vM1V0KrRAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGhBCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9Fb/uIvgAAAA==[0m[Pipeline] }
+[8mha:////4IGz8YI0P+LYY6aDvw/132Wt590UPMf+zRA8LANf5nLrAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUQASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAfS1oeb4AAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4DNsuyctalhzoSemeJCZVfB6Ig+FDWvEB740Hdp8LHs0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIJECUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkFZ73Md6g9J44sivgAAAA==[0m[Pipeline] }
+[8mha:////4O2MvPgpnFA2KZZBsMb+aqcUmSbFbrWWduZXmMR4CvrmAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJpUCgQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJygP+1x1/QFn44lIvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4BkREHWjiRYd8S/nzrIT371sQ8hSECsU+nYr5i5M25WrAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCqBAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAedrn22w9hpbEdvgAAAA==[0m[Pipeline] }
+[8mha:////4M9PNHRQTbcySALWM3i1xv7SP/+tAaycR13KMWtdW22NAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhCgWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvP1nnIuy+AAAA[0m[Pipeline] // stage
+[8mha:////4GICKVMtPE7z4cAy/OjYUp4kRE5lSzmqaebPOULrdeFcAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUTB0QE2uUhROENIS00f/lJ6WdOBFX4w4EKjHhwbItWe/5gioyHIid6Cz2HqPxYgijy0lMxP0l0CQ6OgtDGClYoeykqLXHpSpKFhYVJawkrC2aQNGjS7CRnb7rOmh09Slx3vYSSt/e4AGFzOSkOX3LzLC9jm0k/HH+AmAeEpS7JlvTfJ7VG6ViAkDCAAAA[0m[Pipeline] stage
+[8mha:////4NAfwBxIE9NVpuf/j49+IAHUr83E7tupcAAHyvoRqU6YAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0LBJiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPkHVpXsIAAAA=[0m[Pipeline] { (QUALITY_GATE)
+[8mha:////4GCF37Fxd3RjKMEnKYmofjC4nBGzwDoJcO5fDcewS5UGAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud19ah/eiOvlgb4AAAA=[0m[Pipeline] tool
+[8mha:////4H9t6lipMTlgTOFMdQNhZP07t26OARACoc9qb9e+tHMGAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCRyREldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNknKA91rnrvP/wXe1u+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4NWhN2XIX6PTZ35SjHeAOOjQT9JwA2JL1hPQBIZAROvjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKiIhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QXmoc9V7/wG9JmBCvgAAAA==[0m[Pipeline] tool
+[8mha:////4NYdD4tcXkDeJfLGMabVcfXoKMrFlaR5hPtGptHo+kGkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0RAJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2CcpDnave+w9+dU1pvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4A659nOzXJ5Sebd/KAiXyZvek52jhpOR6CRoIfkUSzcQAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YKASYuoaZeEEIQkhbfR/SVLaiRNxNe5AoBITHizbkvWeL6higCMFyzqDvcOoHBv8aHNiE4X+4mliHZ2ZIozkDRNmEqRNu1RBycCiooQVh7VB5Sk6tAk2vJN3WXuJtj6lkLcDh9LpGzyg4JmcZEjfMgfYXkcdCX+cvwCYhwTlvsnW7D7P6g18AR5RwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4F4V30ZuXMe0EWSo5L8P4wbmQKv0xdXSYu73+bFAqpfaAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0gAEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADxKa4dwgAAAA==[0m[Pipeline] {
+[8mha:////4FmaRX3nzY5OnXbGFMZKIqVfwWUuP3ad/UVDSlQ0zY9sAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFhm4w4vgAAAA==[0m[Pipeline] waitForQualityGate
+Checking status of SonarQube task 'AZByVskrstE3i5row4rR' on server 'sonarqube2-server'
+SonarQube task 'AZByVskrstE3i5row4rR' status is 'IN_PROGRESS'
+SonarQube task 'AZByVskrstE3i5row4rR' status is 'SUCCESS'
+SonarQube task 'AZByVskrstE3i5row4rR' completed. Quality gate is 'OK'
+[8mha:////4HW40ixh7aFPbqKDqWsHeF8NUmccbDtOImLHsl9zwcfDAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEnfoSDvgAAAA==[0m[Pipeline] }
+[8mha:////4EMYAjghkOXfXtoyouy74fkAsATf0T6XkXzUkTgiF/qUAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSUICEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDud5/avgEhOLzWvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4KGvTOXUBQ8clSk7gqNNrj/X0EVPzLJG5K61V6iiu0zWAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIpiYSoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79ALNPoDe+AAAA[0m[Pipeline] }
+[8mha:////4AbOA2fLwX3elFFOjEMERx+kg6rNCpOPHqRSpLx+TiFXAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBoSo0lppeIGJjXFi3RnbIal4EV/jD1hEomKL1c4283rDOgY4cTDYaxosxc6id6PJCycOw9XxhD1fsGOK7DS2empZ6WbBlpOGJUUJKwEbTZ3jaMkk2IpePmTlJJnqnEL+jgJKq+7whEJkc5IhfWEOsLuNKjL9PH8FMHufoNwfctX1B4eBQ2y+AAAA[0m[Pipeline] // stage
+[8mha:////4PRk8wSIdJU5y6Po3tIpMEXRk0lSd/d8pYeR5/aZv069AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUJoRQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3u2z7zedZvQFAKTgNwgAAAA==[0m[Pipeline] stage
+[8mha:////4IZAwemswGDcfd2d6ufSZzzSeZqppWb/NPdbVf2Fk38OAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogURoSYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLDbrb9/Cw+mJlT6cIAAAA=[0m[Pipeline] { (Deploy Artifacts To Nexus)
+[8mha:////4E8RfxYrXadPK3r2h4mEHdJeplToLXB3UiHU7pkRjTrmAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBqhInei+AAAA[0m[Pipeline] tool
+[8mha:////4Msr0xvqaermdkWol2XtTlJ49OcbhyiOMOeJp/w9+/PBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO63n9qFN+l5hvG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4GDnp+LUR4vFPcrMcEuCf2WoBqT95AfIom/3lFdoLqr+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJBqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAEu78e+vgAAAA==[0m[Pipeline] tool
+[8mha:////4Ao4B9kT/84eTopb5Ixgq9U6Q4/9BeA8Biyrgp794iB/AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFv3tynvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4MFvf+qzMEB+XovYmI9b93Ua8wKVFslhlIYhIIQYhWKzAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohULEgIMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfADgdtg1wgAAAA==[0m[Pipeline] withEnv
+[8mha:////4Bvk1JL8I0umTF3kJOEO0IuJVW5syFVzasfIWTxobbADAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyHE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAcawv9fCAAAA[0m[Pipeline] {
+[8mha:////4P9AVBw/fm2MMdNpnE7FOOJ5yn+q613GCxRcvH5syJQ0AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAkJUaS03vMDExjix7oztkFS8iK/xBwKRqNhitbPNPF+wTBGOHC22hjpHqXEYfG+nhQPH7uJ5wJbP2DAl9galGSRrU88oORuYU5SwELAy1HhOjmyGtWjVXVVeka1OOU7fQUDp9A0eUIjJnFXMXxgjbK69Tkw/z18BjCFDud9+ahfeGJWicb4AAAA=[0m[Pipeline] nexusArtifactUploader
+Uploading artifact database_service_project-0.0.2.jar started....
+GroupId: com.javaproject
+ArtifactId: database_service_project
+Classifier: 
+Type: jar
+Version: 0.0.2
+File: database_service_project-0.0.2.jar
+Repository:maven-releases
+Uploading: http://3.110.218.136:8081/repository/maven-releases/com/javaproject/database_service_project/0.0.2/database_service_project-0.0.2.jar
+10 % completed (5.3 MB / 48 MB).
+20 % completed (10 MB / 48 MB).
+30 % completed (15 MB / 48 MB).
+40 % completed (20 MB / 48 MB).
+50 % completed (24 MB / 48 MB).
+60 % completed (29 MB / 48 MB).
+70 % completed (34 MB / 48 MB).
+80 % completed (39 MB / 48 MB).
+90 % completed (44 MB / 48 MB).
+100 % completed (48 MB / 48 MB).
+Uploaded: http://3.110.218.136:8081/repository/maven-releases/com/javaproject/database_service_project/0.0.2/database_service_project-0.0.2.jar (48 MB at 17 MB/s)
+Uploading artifact database_service_project-0.0.2.jar completed.
+[8mha:////4GMu6jP2D8JFtWEPFQlLLd4IRr4lZzHVmmaSnzjsbNaFAAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoghR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fvae3VL4AAAA=[0m[Pipeline] }
+[8mha:////4HgEEHEloBsG1eA2+SBPYgAAGM7reJAwNCvrSf2j1vhxAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6LgYmIMk2vD4hfUUmuheQ/bhzD5Rf6a/2AjiZN3uucs5/WGVQxQU7CiM9g7jNqJwY82PTFR6K+eJtHRRWjCSN6IxkwNtea0YENsYFmWQyFhbVB7ig4tw0Z26qFKr9CWZw7JHSXkrr3DEzKZyqwCf2EOsL2NbST8df4GYB4GhmJXVQz5Yf8BpqkVfb8AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CRs+v5TSsSO/YYEtGbhoW64xbFOi0MEitDP54TC6/APAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYRDSoSoaK00vMDExjix7ox9wal4EV/jD0REomKrnWnm9YZVinCkaEVvcHCYOieCH+38RKY4XD1l0dNFdISJvBGtyS1pc1qwJTawrCihkrA22HlKDi3DRvbqoWqv0NZnjrM7SCidvsMTCjmXWUX+whRhext1Ivx1/gZgCoGhanYNQ7lvPqDvLSi/AAAA[0m[Pipeline] }
+[8mha:////4LMvxTdCowncVw82/+i9eDSTVMsUy9dJsV3D1dB/NcsxAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxHQznGobDM0niCGGAOZXUwWofJEXs07mJEZK3/132ve6w2rGKCmYEVnsHcYtRODH216YqLQXz1NoqOL0ISRvBGNmRpqzWnBhtjAsiyHQsLaoPYUHVqGjezUQ5VeoS3PHJI7Sshde4cnZDKVWQX+whxgexvbSPjr/A3APAwMxa7aM+SH6gOYrb7ZvwAAAA==[0m[Pipeline] // stage
+[8mha:////4Cp+lMEVIhYWQY6Z8tzZatQSQe5c1rDsTtgjCby6WyWVAAAAqR+LCAAAAAAAAP9tjbEOgjAURR8QBldHP6JIHBwMk2vD4hfUUmuheQ/bhzD5Rf6a/yBK4uSd7rnJzXm+II8BKgpWtAY7h1E70fvBzk2MFLqLp1G0dBaaMJI3ojZjTY05LlgTG1iSpJBJWBnUnqJDy7CWrbqrwiu0xYnDvB0kpK65wQMSOZtZBf7CFGBzHZpI+PP8FcDUM6TlniErt7vPNX8D5Wn9PsMAAAA=[0m[Pipeline] stage
+[8mha:////4N/Bp430F+/pVBnb5oAL3SrUCd/HN4rlonx3ZokKG9p+AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApCDbUiTXqwglCEkLS6P+SpLQTJ+Jq3IHSSkx4sGxL1nu9oYwBagqGOY2txSgt63xvpsQGCu3V08AcXZgkjOQ1a/TQkNKnpTaUNCzKcig4rDRKT9GiSbDmTjxE5QWa6pzCtB055Fbd4QkZn8hJhDSXMcDm1qtI+OP8BcDYJSh22/3sh++3/ABmL9OZxAAAAA==[0m[Pipeline] { (Docker Build Image)
+[8mha:////4DswcrWfAADxMjechqG3wfdv0XQMOI+0Sj3XUDjMoqXSAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDElQoFa2VhhcY2xg71l2wHZyKF/E1/kCUSFRssdrZZt4fWMUADQXDnMbOYpSW9X4w02KZQnfzlJmjK5OEkbxmrc4tKX1esKWkYUlRQsVhrVF6ihZNgg134ilqL9DUlxSm78ShtOoBLyj4ZE4ipBnGANv7oCLhz/NXAGOfoNrvDnMf+y8LKNqdwAAAAA==[0m[Pipeline] tool
+[8mha:////4GyFQrHLRXbUZZTA+vk7X+nNpjCZMKzJ9x/iXpm3nnIDAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEqJBqWitNLzA2MbYse6C7eBUvIiv8QeiRKJii9XONvP+wCoGaCgY5jR2FqO0rPeDmRbLFLqbp8wcXZkkjOQ1a3VuSenzgi0lDUuKEioOa43SU7RoEmy4E09Re4GmvqQwfScOpVUPeEHBJ3MSIc0wBtjeBxUJf56/Ahj7BNV+d5j72H8ByHv3tsAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4GN/OgGYar07sQToFKd635NgRFMxQ2Yk5rBN8JnmlAhJAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEhIFSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6j2u8Pcx/4LiUrsr8AAAAA=[0m[Pipeline] tool
+[8mha:////4NXjg9y/Wj8lgunLV+osoLfB8N/0k6oRX3v8q7nmnYJeAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDEgUSSkVrpeEFxjbGjnUXbAen4kV8jT8QJRIVW6x2tpn3B1YxQEPBMKexsxilZb0fzLRYptDdPGXm6MokYSSvWatzS0qfF2wpaVhSlFBxWGuUnqJFk2DDnXiK2gs09SWF6TtxKK16wAsKPpmTCGmGMcD2PqhI+PP8FcDYJ6j2u8Pcx/4LRlZ0KMAAAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4AkduYXqYVtR2NFv55GKZAsS8Ynrw8WaNfDhUS8SNf7pAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApSCwIdWKNunCCkISQNPq/JCntxIm4GnegtBITHizbkvVebyhjgJqCYU5jazFKyzrfmymxgUJ79TQwRxcmCSN5zRo9NKT0aakNJQ2LshwKDiuN0lO0aBKsuRMPUXmBpjqnMG1HDrlVd3hCxidyEiHNZQywufUqEv44fwEwdgmK3XY/++H7LT831dVRxAAAAA==[0m[Pipeline] withEnv
+[8mha:////4GJ9dvLaMSW7WXMP59A9hnxkl3Owcf/7KktCmCUIRy93AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkSB0Rgn14bFJ6htrYXm/7Etlskn8tV8B0ESJ2+43F1y+V5vKIOHI3nDOo29xSAtG9xo5sQS+f7qKLGOLkwSBnKatTq1pPRprS1FDauyHAoOG43SUbBoImx5Jx6icgJNdY5+3g4ccqvu8ISMz+QofPyWycPuNqpA+OP8BcA0RCiaer94Uy/f8gOljgJOxAAAAA==[0m[Pipeline] {
+[8mha:////4Kjz3UbMrXRoB+1qVnY3IbVupshHcLlI5JTOl5IaYXpMAAAAph+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BApnRETa5SFE4QkhLTR/yVJaSdOxNW4A6GVmPBg2Zas93pDHQMcKVjWGewdRuXY4EebE5so9FdPE+vowhRhJG+YMJMgbU5rFZQMrCpKqDhsDCpP0aFNsOWdfMjGS7TNOYW8HTiUTt/hCQXP5CRDWsocYHcbdST8cf4CYB4SVG27X7z9fusPFL5hxcQAAAA=[0m[Pipeline] script
+[8mha:////4GdMBMehFCd8eDqQNlylaBkUdDPrfjoB0nv+1VqqZARSAAAApx+LCAAAAAAAAP9tjTEOwjAUQ39bdWBl5BCpwoqYWKMunCA0ISSN/i9JSjtxIq7GHQitxIQHy7Zkvdcb6hjgSMEwp7G3GDvLBj+anNhEob96mpijC+sII3nNWj21pPRprS0lDauKEioBG42dp2jRJNgKJx+y8RJNc04hbwcBpVV3eEIhMjnJkJYyB9jdRhUJf5y/AJiHBBXnfPH991t/ANWAUNjEAAAA[0m[Pipeline] {
+[8mha:////4Lh1Nfvk4T89W34Y1atQSUuV6+YioVlPjS1e7Tplq6QUAAAApx+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJOhon1obFJ6il1kLz/9gWy+QT+Wq+gxUSJ2+43F1y+V5vKL2DEznNeoWDQS8NG+2kU2KR3HC1FFlPFyYJPVnFWhVb6lSz1paCglVZDgWHjUJpyRvUAba8Fw9RWYG6OgeXtiOH3HR3eELGEzkIF5YyO9jdps4T/jh/ATCPAYq63i9++H7LD4CBkmTEAAAA[0m[Pipeline] withSonarQubeEnv
+WARNING: Unknown parameter(s) found for class type 'hudson.plugins.sonar.SonarBuildWrapper': toolName
+Injecting SonarQube environment variables using the configuration: sonarqube-server
+[8mha:////4LBCg1+HR/3YJemta78jIq97oSiMMG0is/ZJsx6jzh33AAAAqB+LCAAAAAAAAP9tjbEOgjAYhH8gDK6OPkQJ0c04sTYsPkEttRaa/8e2WCafyFfzHayQOHnD5e6Sy/d6Q+kdnMhp1iscDHpp2GgnnRKL5Iarpch6ujBJ6Mkq1qrYUqeatbYUFKzKcig4bBRKS96gDrDlvXiIygrU1Tm4tB055Ka7wxMynshBuLCU2cHuNnWe8Mf5C4B5DFDU9X7xw/dbfgBX/TLixAAAAA==[0m[Pipeline] {
+[8mha:////4PdZBDz4x1cnj1LTMhICsiqeuxRih4yx8wtCDMvu+6yKAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSFAhqrRWGl5gYmPsWHfGdkgqXsTX+ANWIlGxxWpnm3l/YBMDnCloZhUOBmNvmHejzotNFIabo4lZurKeMJJTrFNTR1K1K3aUFKwpSqg4bBX2jqJBnWDHrXiK2gnU9SWF/J04lEY+4AUFz+YkQlpgDrC/jzIS/jx/BTD7BFXTHJY++i9/VmOLwAAAAA==[0m[Pipeline] sh
++ docker build -t boardwebapp:latest .
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  51.68MB
+Step 1/6 : FROM adoptopenjdk/openjdk11
+ ---> ca95c6814415
+Step 2/6 : EXPOSE 8080
+ ---> Using cache
+ ---> 5f8eb6d4a81b
+Step 3/6 : ENV APP_HOME /usr/src/app
+ ---> Using cache
+ ---> d3edeba4ad56
+Step 4/6 : COPY target/*.jar $APP_HOME/app.jar
+ ---> 34bbb6cee241
+Step 5/6 : WORKDIR $APP_HOME
+ ---> Running in d3bfde1a37df
+Removing intermediate container d3bfde1a37df
+ ---> fad88edbbbe2
+Step 6/6 : CMD ["java", "-jar", "app.jar"]
+ ---> Running in f6daaa7eb343
+Removing intermediate container f6daaa7eb343
+ ---> ffe8e392dba8
+Successfully built ffe8e392dba8
+Successfully tagged boardwebapp:latest
+[8mha:////4FUxCSQquTd4SgAgnFYiFI7ekE8XI072ocRjGUBGSXlgAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSIgGUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZJ6ia5rD00X8BvAVOoMAAAAA=[0m[Pipeline] sh
++ docker tag boardwebapp:latest vishal431/boardwebapp:latest
+[8mha:////4PG3wGbQahr2Xlcku35Iprd5Dy53zrAu5BX0QclhWi5SAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjSEgUiCqtlYYXmNgYO9adsR2SihfxNf6AlUhUbLHa2WbeH9jEAGcKmlmFg8HYG+bdqPNiE4Xh5mhilq6sJ4zkFOvU1JFU7YodJQVrihIqDluFvaNoUCfYcSueonYCdX1JIX8nDqWRD3hBwbM5iZAWmAPs76OMhD/PXwHM3ieomua49OELRpadPMAAAAA=[0m[Pipeline] }
+[8mha:////4FVvzWWS6rVDkEAewEDR0tIaTKgickEF7NBmJnqLtWpFAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSjiAYJUaW10vACExtjx7oztkNS8SK+xh+wEomKLVY728z7A5sY4ExBM6twMBh7w7wbdV5sojDcHE3M0pX1hJGcYp2aOpKqXbGjpGBNUULFYauwdxQN6gQ7bsVT1E6gri8p5O/EoTTyAS8oeDYnEdICc4D9fZSR8Of5K4DZ+wRV0xyXPnwBDHOxVMAAAAA=[0m[Pipeline] // withSonarQubeEnv
+[8mha:////4B7aqSkilUN2BUDFnuFzRk/ke8dXLdxSATddj1lOS5YwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYSj0CFEldZKwwtMbIwd687YDknFi/gaf8BKJCq2WO1sM+8PbGKAMwXNrMLBYOwN827UebGJwnBzNDFLV9YTRnKKdWrqSKp2xY6SgjVFCRWHrcLeUTSoE+y4FU9RO4G6vqSQvxOH0sgHvKDg2ZxESAvMAfb3UUbCn+evAGbvE1RNc1z68AUuSMGFwAAAAA==[0m[Pipeline] }
+[8mha:////4O06ZzqkESeY4V723Q5PpCd9VlIBpqp/l72ovTpg6KajAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEbB2rtEwaT4CASML8H4GYVJ7Iq3kH0cxYucXOvm3e8wWrGOBIwbLOYO8wKscGP9q82EShv3iaWEdnpggjecNaM7WkTbNgS8nAkqKESsDaoPIUHdoEG9HJu6y9RFufUsjfQUDp9A0eUIhsTjKkL8wBttdRR8Kf568A5mFIUPH97tOcvwGkW98HwAAAAA==[0m[Pipeline] // script
+[8mha:////4HwDP5H3af8cS9BaLej725wTfbZ2QpQ7pj3YbEimVOcIAAAApR+LCAAAAAAAAP9tjTESwiAURH+SsbC19BBEbB2rtEwaT4CASML8H4GYVJ7Iq3kH0cxYucXOvm3e8wWrGOBIwbLOYO8wKscGP9q82EShv3iaWEdnpggjecNaM7WkTbNgS8nAkqKESsDaoPIUHdoEG9HJu6y9RFufUsjfQUDp9A0eUIhsTjKkL8wBttdRR8Kf568A5mFIUPE9/zTfvQGGYK/WwAAAAA==[0m[Pipeline] }
+[8mha:////4JW0FdUOS+MXJFru3xDy66307hbyfqt+sDsG4jpWLtYEAAAAph+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQD6RCiorXS8AKTGGPHujP2haTiRXyNPxCIRMUWq51t5vmCRYpwoGiE09hZTI0VwfdmWmKg2F08DcLRWTSEibwWtR5qavVxxppYw5wsh0LCUmPjKVk0DCvp1F2VXqEpTxynby8ht+0NHpDJycwq8hfGCOtr3ybCn+evAMYQGIptVX16s3sD/vOAh8AAAAA=[0m[Pipeline] // withEnv
+[8mha:////4HwICBau7wvgiCNctreAG9zopbDsLsYyUy7KkMcXDpZSAAAAph+LCAAAAAAAAP9tjT0SwiAUhF+SsbC19BDEv86xsmVoPAECIgnzXgRiUnkir+YdRDNj5RY7+23zPV8wiwEOFCxrDLYOo3Ks873Niw0U2oungTV0ZoowkjdMmEGQNscJBSUDU4oSKg5zg8pTdGgTLHgj77L2Em19SiF/ew6l0zd4QMGzOcmQvjAGWF57HQl/nr8CGLsuQbXebD+92r0B94RGX8AAAAA=[0m[Pipeline] }
+[8mha:////4E/+iGuNFzV6OOeECzQ8a0T/mwdBhj7tQ7msrpf84xRAAAAAph+LCAAAAAAAAP9tjT0SwiAUhF+SsbC19BDEv86xsmVoPAECIgnzXgRiUnkir+YdRDNj5RY7+23zPV8wiwEOFCxrDLYOo3Ks873Niw0U2oungTV0ZoowkjdMmEGQNscJBSUDU4oSKg5zg8pTdGgTLHgj77L2Em19SiF/ew6l0zd4QMGzOcmQvjAGWF57HQl/nr8CGLsuQbXe7D692r4B2i+FBMAAAAA=[0m[Pipeline] // stage
+[8mha:////4CBYKbH3BcE8wx5REsWVBKhmWOFV5IlY9ysFIBCTc60tAAAAph+LCAAAAAAAAP9tjbEOgjAURR8QB1dHP6IEE+NgmFwbFr+glloLzXvYPoTJL/LX/AcbSZy80z1nOa83rGKAmoIVncHeYdRODH606YmJQn/1NImOLkITRvJGNGZqqDWnBRtiA8uyHAoJa4PaU3RoGTayUw9VeoW2PHNI7ighd+0dnpDJVGYV+AtzgO1tbCPhr/M3APMwMBTVbs+QV4cPopOZBb8AAAA=[0m[Pipeline] }
+[8mha:////4EY/I/l93Drpoz+80EemMF1dV9OymFhv8RqpjSNoi+kUAAAApR+LCAAAAAAAAP9tjTESgjAQRRcYC1tLDxEGCxrHijZD4wliEmMgs4vJIlSeyKt5BxmZsfJX/73mvd6wSRFOFJ3oLPYek/ZiCKNbnpgo9tdAk+joIjRhomBFa6eWjG1WbIktrMtyKCRsLepAyaNj2MlOPVQZFLryzHFxRwm5N3d4QiaXMqvIX5gj7G+jSYS/zt8AzMPAUFSHmiGv6g+a0Qr0vwAAAA==[0m[Pipeline] // withEnv
+[8mha:////4B0fkkwzVJdx0xJwex4FXy6wENzFgL8c94KXmU55VMylAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQjaFIgKlorDS8wsTFOrDtjX3AqXsTX+AMRkajYameaeb1hlSIcKVrRGxwcps6J4Ec7P5EpDldPWfR0ER1hIm9Ea3JL2pwWbIkNLCtKqCSsDXaekkPLsJG9eqjaK7T1mePsDhJKp+/whELOZVaRvzBF2N5GnQh/nb8BmEJgqHb7hqFoPkBkIC6+AAAA[0m[Pipeline] }
+[8mha:////4AbNqm/TPGHGvTCOK0iuKCs0KnR83u0tChoQPqhftN4YAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjKBASoqK10vAC4xjjxLoL9gWn4kV8jT8QEYmKrXammdcbFinCkaKTrcXOYzJe9mFw05OZYncNlGVLF2kIEwUra5trauxpxprYwjxRQKlgadEESh4dw0q1+qGroNFVZ46TOygofHOHJwg1lVlH/sIYYX0bmkT46/wNwNj3DOVmu2cQuw8Hw3fbvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JT/IYBdJii9GApFYMlrGm/GlDF+ECC0autMWWA0mewiAAAApR+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYQjEA1CVLRWGl5gHGOcWHfBvuBUvIiv8QciIlGx1c4083rDIkU4UnSytdh5TMbLPgxuejJT7K6BsmzpIg1homBlbXNNjT3NWBNbmCcKKBUsLZpAyaNjWKlWP3QVNLrqzHFyBwWFb+7wBKGmMuvIXxgjrG9Dkwh/nb8BGPueodxs9wxi9wGbixkIvgAAAA==[0m[Pipeline] }
+[8mha:////4J0fZOVD5Pqx/n2Iz/rtncf60UpIDg/cYCi/HnIBVZGsAAAApB+LCAAAAAAAAP9tjTEOwjAQBC+JKGgpeYQDSomoaK00vMDExjix7ox9wal4EV/jD0REomKrnWnm9YZVinCkaEVvcHCYOieCH+38RKY4XD1l0dNFdISJvBGtyS1pc1qwJTawrCihkrA22HlKDi3DRvbqoWqv0NZnjrM7SCidvsMTCjmXWUX+whRhext1Ivx1/gZgCoGh2jc7hqL5AOyvMVC+AAAA[0m[Pipeline] // node
+[8mha:////4BfGrekNbEBs/xmECXTb8A1gxTGIsmSQY2DAz7XbjqRdAAAApB+LCAAAAAAAAP9tjTEOwjAQBM+JKGgpeYSjQImoaK00vMDExjix7oJ9wal4EV/jD0REomKrnWnm9YZVinCk6GRnsfeYWi+HMLr5yUyxvwbKsqOLbAkTBSsbmxsy9rRgQ2xhmSigVLC22AZKHh3DRnX6oaug0VVnjrM7KCi8ucMThJrLrCN/YYqwvY0mEf46fwMwDQNDWe9rBrH7AMq2Vhq+AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

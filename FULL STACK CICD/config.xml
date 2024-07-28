@@ -1,0 +1,98 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1400.v7fd111b_ec82f">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2198.v41dd8ef6dd56"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2198.v41dd8ef6dd56">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@3894.3896.vca_2c931e7935">
+    <script>  pipeline {
+    agent any
+    
+    tools {
+        jdk &apos;jdk17&apos;
+        maven &apos;maven3&apos;
+    }
+    
+    environment {
+        SONARQUBE_HOME = tool &apos;sonar-scanner&apos;
+    }
+    
+    stages {
+        stage(&apos;Git_Clone&apos;) {
+            steps {
+               git branch: &apos;main&apos;, credentialsId: &apos;GithubBoardgame-cred&apos;, url: &apos;https://github.com/vishal343012/Boardgame2024.git&apos;
+            }
+        }
+
+        stage(&apos;CLEAN&apos;) {
+            steps {
+                sh &apos;mvn clean&apos;
+            }
+        }    
+
+        stage(&apos;COMPILE&apos;) {
+            steps {
+                sh &apos;mvn compile&apos;
+            }
+        }
+        
+        stage(&apos;PACKAGE&apos;) { 
+            steps {
+                sh &apos;mvn package&apos;
+            }
+        }
+        
+        stage(&apos;OWASP Dependency Check&apos;) {
+            steps {
+                dependencyCheck additionalArguments: &apos;--scan ./&apos;, odcInstallation: &apos;DC&apos;
+                dependencyCheckPublisher pattern: &apos;**/dependency-check-report.xml&apos;
+            }
+        }
+        
+        stage(&apos;SonarQube Analysis&apos;) {
+            steps {
+                withSonarQubeEnv(&apos;sonarqube2-server&apos;) {
+                    sh &apos;&apos;&apos;$SONARQUBE_HOME/bin/sonar-scanner \
+                           -Dsonar.projectName=Boardgame \
+                           -Dsonar.projectKey=Boardgame \
+                           -Dsonar.java.binaries=.&apos;&apos;&apos;
+                }
+            }
+        }
+        stage(&apos;QUALITY_GATE&apos;) { 
+            steps {
+                waitForQualityGate abortPipeline: false
+            }
+        }
+        
+        stage(&apos;Deploy Artifacts To Nexus&apos;) {
+            steps {
+              nexusArtifactUploader artifacts: [[artifactId: &apos;database_service_project&apos;, classifier: &apos;&apos;, file: &apos;/var/lib/jenkins/workspace/FULL STACK CICD/target/database_service_project-0.0.2.jar&apos;, type: &apos;jar&apos;]], credentialsId: &apos;nexus-auth&apos;, groupId: &apos;com.javaproject&apos;, nexusUrl: &apos;3.110.218.136:8081&apos;, nexusVersion: &apos;nexus3&apos;, protocol: &apos;http&apos;, repository: &apos;maven-releases&apos;, version: &apos;0.0.2&apos;
+        
+           }
+       }
+       stage(&apos;Docker Build Image&apos;) {
+            steps {
+                script {
+                 withSonarQubeEnv(credentialsId: &apos;sonartokennew&apos;, toolName: &apos;docker&apos;) {
+                        sh &apos;docker build -t boardwebapp:latest .&apos;
+                        sh &apos;docker tag boardwebapp:latest vishal431/boardwebapp:latest&apos;
+                    }
+                }
+            }
+        }
+    }  
+  }    </script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
